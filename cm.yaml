@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-demo-pod
+spec:
+  - name: demo-done
+    image: alpine
+    command: ["Sleep", "3600"]
+    env:
+      - name: PLAYER_INITIAL_LIVES 
