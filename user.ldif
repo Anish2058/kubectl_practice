@@ -1,0 +1,6 @@
+dn: uid=trino-user,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+uid: trino-user
+sn: User
+cn: trino-user
+userPassword: password123
